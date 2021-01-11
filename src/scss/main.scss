@@ -1,8 +1,20 @@
 @import 'core/variables';
 @import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+@import 'core/variables';
+
+
+.page__header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    color:antiquewhite;
+  }
+body {
+    padding: 2rem;
+    height: 100vh;
+    /*background-image: url('../images/cover.jpg');*/
+    color:black;
+    /*background-color: $color-bg;*/
+    font-family: $font-main;
+  }
+  
