@@ -425,4 +425,17 @@ header {
   border: black;
   color: #df188c; }
 
+@media all and (min-width: 768px) {
+  .header__container {
+    width: 768px;
+    height: 768px; }
+  .header__text {
+    width: 710px; }
+  .header__tittle {
+    font-size: 42px; }
+  .header__paragraph {
+    width: 768px;
+    font-size: 20px;
+    padding-top: 50px; } }
+
 /*# sourceMappingURL=main.css.map */
