@@ -4,61 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>my final first module test</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/main.css"/>
   </head>
   
   <body>
-       <div class="page">
-      <header>
-        <img class="header__image--burger" src="../images/ico-menu.svg" alt="menu-icon">
-        <img class="header__image--background" src="../images/cover.jpg" alt="city view picture">
-        <img src="../images/logo-adalab.png" alt="logo">
-        <h1>
-          anonymous proxy
-        </h1>
-        <p>
-          in hac habitasse plateas dictumst
-        </p>
-      </header>
-      <main>
-        <section>
-          insomnia tips
-          <h2>
-            looking through a window
-          </h2>
-          <p>
-            donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. vivamus semper sodales rutrum.
+      <header >
+        <div class="header__container">
+        <div class="header__image--burger">
+          <a href="http://adalab.es" target="_blank">
+          <img src="./assets/images/ico-menu.svg" alt="menu-icon">
+          </a>
+        </div>
+        <div class="header__text" >
+          <div class="header__tittle">
+          <h1>
+            anonymous proxy
+          </h1>
+        </div>
+        <div class="header__paragraph">
+          <p >
+             in hac habitasse plateas dictumst
           </p>
-          go
-        </section>
-        <section>
-          <h2>
-            3 reasons to purchase
-          </h2>
-            <h3>
-              ut sed metus
-            </h3>
-            <p>
-              lorem ipsum dolor sit amet, consecteur.
-            </p>
-            <h3>
-              curabitur ac erat
-            </h3>
-            <p>
-              mauris mattis urna quis lorem molestie.
-            </p>
-            <h3>
-              morbi dictum
-            </h3>
-            <p>
-              aliquam in dolor et dolor tincidunt.
-            </p>
-            more information
-        </section>
-        <img class="main_image" src="../images/ico-arrow.svg" alt="main-icon-arrow">
-      </main>
-      <footer>
+        </div>
+        <div class="header__buttondown">
+          <a class="header__buttondown--link" href="./index.html#3reasons"><img src="./assets/images/ico-scroll-down.svg" alt="haeder-ico-scroll-down">
+          </a>
+        </div>
+    </div> 
+    </header>
+    <include src="./partial/main.html"></include>
+            <footer class="footer">
         <div>
           <ul>
             <li>articles</li>
@@ -67,14 +42,20 @@
             <li>reasons</li>
             <li>tips</li>
           </ul>
+        </div>
+        <div>
           <ul>
             <li>twiter</li>
             <li>instagram</li>
             <li>mastodon.social</li>
           </ul>
         </div>
-        <span>&copy;2021</span>
-        <span>we<img src="../images/corazon.png">components</span>
+        <div class="rights">
+        <span class="copy__color">&copy</span>2021
+        </div>
+        <div>
+        we<span class="heart__color">&heartsuit;</span>components
+      </div>
       </footer>
     </div>
   </body>
