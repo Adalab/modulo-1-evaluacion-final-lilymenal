@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>my final first module test</title>
     <link rel="stylesheet" href="./assets/css/main.css"/>
-  </head>
-  
-  <body>
-      <header >
-        <div class="header__container">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet"><body>
+  <body>  
+    <header >
+      <div class="header__container">
         <div class="header__image--burger">
           <a href="http://adalab.es" target="_blank">
           <img src="./assets/images/ico-menu.svg" alt="menu-icon">
@@ -17,83 +17,71 @@
         </div>
         <div class="header__text" >
           <div class="header__tittle">
-          <h1>
-            anonymous proxy
-          </h1>
-        </div>
-        <div class="header__paragraph">
-          <p >
-             in hac habitasse plateas dictumst
-          </p>
-        </div>
-        <div class="header__buttondown">
-          <a class="header__buttondown--link" href="./index.html#3reasons"><img src="./assets/images/ico-scroll-down.svg" alt="haeder-ico-scroll-down">
+          <h1>anonymous proxy</h1>
+          </div>
+          <div class="header__paragraph">
+            <p>in hac habitasse plateas dictumst</p>
+          </div>
+          <div class="header__buttondown">
+          <a class="header__buttondown--link" href="./index.html#reasons"><img src="./assets/images/ico-scroll-down.svg" alt="haeder-ico-scroll-down">
           </a>
-        </div>
-    </div> 
+          </div>
+        </div> 
+      </div>
     </header>
+    <section class="insomnia">
+      <h3 class="insomnia__text">insomnia tips</h3>
+      <h2 class="insomnia__phrase">looking through a window</h2>
+      <p class="insomnia__paragraph">donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. vivamus semper sodales rutrum.</p>
+      <button class="insomnia__button">go</button>
+    </section>
+    
     <main>
-        <section>
-          insomnia tips
-          <h2>
-            looking through a window
-          </h2>
-          <p>
-            donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. vivamus semper sodales rutrum.
-          </p>
-          go
-        </section>
-        <section>
-          <h2 id="3reasons">
-            3 reasons to purchase
-          </h2>
-            <h3>
-              ut sed metus
-            </h3>
-            <p>
-              lorem ipsum dolor sit amet, consecteur.
-            </p>
-            <h3>
-              curabitur ac erat
-            </h3>
-            <p>
-              mauris mattis urna quis lorem molestie.
-            </p>
-            <h3>
-              morbi dictum
-            </h3>
-            <p>
-              aliquam in dolor et dolor tincidunt.
-            </p>
-            more information
-          </section>
-        <img class="main_image" src="./assets/images/ico-arrow.svg" alt="main-icon-arrow">
-      </main>
+      <div class="main__container">
+          <div class="main_tittle">
+            <h2 class="reasons" id="reasons">3 reasons to purchase</h2>
+          </div>
+          <article class="main__textone">
+            <h3 class="main__textone--h3">ut sed metus</h3>
+            <p class="main__textone--p">lorem ipsum dolor sit amet, consecteur.</p>
+          </article>
+          <article class="main__texttwo">
+            <h3 class="main__textwo--h3">curabitur ac erat</h3>
+            <p class="main__textwo--p">mauris mattis urna quis lorem molestie.</p>
+          </article>
+          <article class="main__texttree">
+            <h3 class="main__texttree--h3">morbi dictum</h3>
+            <p class="main__texttree--p">aliquam in dolor et dolor tincidunt.</p>
+          </article>
+          <div class="main__button">
+            <button class="main__button--text" >more reasons</button> 
+          </div>
+      </div>
+             
+    </main>
 
-            <footer class="footer">
-        <div>
-          <ul>
-            <li>articles</li>
-            <li>books</li>
-            <li>events</li>
-            <li>reasons</li>
-            <li>tips</li>
+    <footer class="footer">
+        <img class="footer__image" src="./assets/images/ico-arrow.svg" alt="footer-icon-arrow">
+          <ul class="footer__links">
+            <a class="footer__link" href="http://adalab.es" target="_blank"><li>articles</li></a>
+            <a class="footer__link" href="http://adalab.es" target="_blank"><li>books</li></a>
+            <a class="footer__link" href="http://adalab.es" target="_blank"><li>events</li></a>
+            <a class="footer__link" href="http://adalab.es" target="_blank"><li>reasons</li></a>
+            <a class="footer__link" href="http://adalab.es" target="_blank"><li>tips</li></a>
           </ul>
-        </div>
-        <div>
-          <ul>
-            <li>twiter</li>
-            <li>instagram</li>
-            <li>mastodon.social</li>
+          <ul class="footer__links">
+            <a class="footer__link" href="http://adalab.es" target="_blank"><li>twiter</li></a>
+            <a class="footer__link" href="http://adalab.es" target="_blank"><li>instagram</li></a>
+            <a class="footer__link" href="http://adalab.es" target="_blank"><li>mastodon.social</li></a>
           </ul>
-        </div>
         <div class="rights">
         <span class="copy__color">&copy</span>2021
         </div>
         <div>
         we<span class="heart__color">&heartsuit;</span>components
       </div>
-      </footer>
-    </div>
+    </footer>
+
+
   </body>
 </html>
