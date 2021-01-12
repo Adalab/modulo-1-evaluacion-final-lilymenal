@@ -1,5 +1,7 @@
 
-
+.reasons__id {
+  scroll-margin-top: 450px;
+}
 .main__container {
   background-color: #eff9ff;
   width: 320px;
@@ -160,6 +162,12 @@ text-transform: uppercase;
     padding: 0 29.5px 0 30.5px;
     border-radius: 22.5px;
     background-color: #f26002;
+    transition: 2s;
+}
+.main__button:hover {
+  background-color: cadetblue;
+  border: black;
+  color:blue;
 }
 .main__button--text {
     width: 124px;
@@ -175,5 +183,12 @@ text-transform: uppercase;
     background-color: #f26002;
     color: white;
     border: none;
-}
+    transition: 2s;
+  }
+  .main__button--text:hover {
+    background-color: cyan;
+    border: black;
+    color:blue;
+  }
+
 
