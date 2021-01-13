@@ -266,3 +266,15 @@ text-transform: uppercase;
   }
 
 
+  @media all and (min-width: 1200px) {
+    .main__container {
+      width: 1200px;
+      height: 427px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+  }
+
+
+
