@@ -1,6 +1,5 @@
 
 .insomnia {
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +7,7 @@
 }
 
 .insomnia__text {
-    width: 90px;
+
     height: 30px;
     margin: 0 200px 1px 0;
     font-family: roboto;
@@ -22,7 +21,6 @@
     color: lightblue;
 }
 .insomnia__tittle {
-    width: 290px;
     height: 60px;
     margin: 1px 0 15px;
     font-family: 'roboto slab', sans-serif;
@@ -37,7 +35,7 @@
 }
 
     .insomnia__paragraph {
-        width: 290px;
+
         height: 120px;
         margin: 15px 0 30px;
         font-family: 'roboto', sans-serif;
@@ -55,21 +53,20 @@
       }
 
 .insomnia__button {
-        width: 76px;
+    
         height: 45px;
+        width: 91px;
         margin: 0 0 45px 15px;
-        padding: 0 25px 0 26px;
         border-radius: 22.5px;
         border: solid 2px #f26002;
         font-family: 'roboto', sans-serif;
         font-size: 20px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
+        text-decoration: none;
         text-transform: capitalize;
         line-height: 2.25;
         letter-spacing: normal;
         text-align: center;
+        background-color: white;
         color: #f26002;
         transition: all 2s;
 }      
@@ -82,26 +79,18 @@
 
 @media all and (min-width: 768px) {
 
-    .insomnia {
-        width: 768px;
-        height: 330px;
-    }
-
     .insomnia__text {
-        width: 768px;
         height: 30px;
         padding-left: 39px;
     }
 
     .insomnia__tittle {
-        width: 768px;
         height: 45px;
         padding-left: 39px;
         font-size: 26px;
     }
 
     .insomnia__paragraph {
-        width: 768px;
         height: 60px;
         padding-left: 39px;
         font-size: 20px;
@@ -113,29 +102,21 @@
     }
 }
 
-@media all and (min-width: 1200px) {
-
-    .insomnia {
-        width: 1200px;
-        height: 330px;
-    }
+@media all and (min-width: 1280px) {
 
     .insomnia__text {
-        width: 1200px;
         height: 30px;
         padding-left: 200px;
         font-size: 16px;
     }
 
     .insomnia__tittle {
-        width: 1200px;
         height: 45px;
         padding-left: 200px;
         font-size: 32px;
     }
 
     .insomnia__paragraph {
-        width: 1200px;
         height: 60px;
         padding-left: 200px;
         font-size: 20px;

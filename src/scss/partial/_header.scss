@@ -1,24 +1,18 @@
 header {
-    height: 100%;
+    height: 100vh;
 }
-/*background-image: url('../images/cover.jpg');    
-background-size: cover;
-background-position: center center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-}*/
 
 .header__container {
 display: flex;
 flex-direction: column;
+justify-content: flex-end;
 background-image: url('../images/cover.jpg');    
 background-size: cover;
 background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
-width: 320px;
-height: 600px;
-padding: 0 15px 0 0;
+width: 100%;
+height: 100%;
 }
 
 .header__image--burger {
@@ -27,7 +21,6 @@ padding: 0 15px 0 0;
   background-color: blue;
   width: 44px;
   height: 44px;
-  margin: 0 94px 240px 0;
   padding: 15px 14px;
 }
 .header__text {
@@ -41,12 +34,9 @@ padding: 0 15px 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 290px;
-    height: 110px;
-    padding: 290px 15px 80px 15px;
+    align-items: flex-end;
     font-family: 'roboto slab', sans-serif;
-    font-size: 20px;
+    font-size: 42px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -57,9 +47,9 @@ padding: 0 15px 0 0;
     color: white;
 }
 .header__paragraph {
-    width: 290px;
-    height: 21px;
-    margin: 10px 0 45px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     font-family: 'roboto', sans-serif;
     font-size: 16px;
     font-weight: normal;
@@ -88,46 +78,27 @@ padding: 0 15px 0 0;
 
 
 @media all and (min-width: 768px){
-    .header__container{
-        width: 768px;
-        height: 768px;
-    }
-    .header__text {
-        width: 710px;
-    }
     .header__tittle {
-        font-size: 42px;
+        font-size: 50px;
     }
     .header__paragraph {
-        width: 768px;
-        font-size: 20px;
-        padding-top: 50px;
+        font-size: 24px;
     }
 }
 
-@media all and (min-width: 1200px) {
-    
-    .header__container{
-        width: 1200px;
-        height: 750px;
-    }
+@media all and (min-width: 1280px) {
 
     .header__text {
-        width: 1200px;
-        height: 768px;
         padding: 0;
         margin: 0;
     }
     .header__tittle {
-        padding: 0 0 20px 0;
-        font-size: 60px;
+        font-size: 80px;
     }
 
     .header__paragraph {
-        font-size: 30px;
+        font-size: 24px;
         transform: translateX( -15px);
-        padding-bottom: 10px;
-        margin-left: 0;
     }
 
 }
