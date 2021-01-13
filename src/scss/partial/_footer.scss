@@ -86,3 +86,42 @@
 .heart__color {
     color: #f26002;
 }
+
+@media all and (min-width: 768px){
+.footer {
+    width: 768px;
+    height: 240px;
+    padding: 0;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+.footer__buttonup--link {
+    padding: 0;
+}
+.footer__buttonup {
+    transform: translateY(-80px);
+    transform: translateX(-250px);
+}
+.footer__link {
+    text-align: left;
+    align-items:flex-start;
+}
+
+.footer__links--1 {
+    padding-top: 45px;
+    transform: translateX(-200px);
+}
+.footer__links--2 {
+    transform: translateX(200px);
+}
+.rights {
+    transform: translatex(-165px);
+}
+
+.heart__transform {
+    transform: translatey(15px);
+}
+}

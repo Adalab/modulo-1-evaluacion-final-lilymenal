@@ -1,0 +1,115 @@
+header {
+    height: 100%;
+}
+/*background-image: url('../images/cover.jpg');    
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}*/
+
+.header__container {
+display: flex;
+flex-direction: column;
+background-image: url('../images/cover.jpg');    
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+width: 320px;
+height: 600px;
+padding: 0 15px 0 0;
+}
+
+.header__image--burger {
+  position: fixed;
+  justify-content: left;
+  background-color: blue;
+  width: 44px;
+  height: 44px;
+  margin: 0 94px 240px 0;
+  padding: 15px 14px;
+}
+.header__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.header__tittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 110px;
+    padding: 290px 15px 80px 15px;
+    font-family: 'roboto slab', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+.header__paragraph {
+    width: 290px;
+    height: 21px;
+    margin: 10px 0 45px 15px;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;      
+}
+
+.header__paragraph::first-letter {
+    text-transform: uppercase;
+}
+
+.header__buttondown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    background: white;        
+}
+
+
+@media all and (min-width: 768px){
+    .header__container{
+        width: 768px;
+        height: 768px;
+    }
+    .header__text {
+        width: 710px;
+    }
+    .header__tittle {
+        font-size: 42px;
+    }
+    .header__paragraph {
+        width: 768px;
+        font-size: 20px;
+        padding-top: 50px;
+    }
+}
+
+@media all and (mind-width: 1200px) {
+
+    .header__container{
+        width: 1280px;
+        height: 768px;
+        padding: 0;
+    }
+}
