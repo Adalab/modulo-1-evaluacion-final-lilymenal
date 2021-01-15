@@ -552,4 +552,21 @@ footer {
   .heart__transform {
     transform: translate(300px, 40px); } }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  color: white; }
+
+@media all and (min-width: 768px) {
+  .body__text {
+    width: 100%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; } }
+
 /*# sourceMappingURL=main.css.map */
